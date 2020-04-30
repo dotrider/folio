@@ -5,7 +5,7 @@ const About = () => {
 
     return(
         <section id='about'>
-                About
+                 <h2 className='headings'>About</h2>
         </section>
     )
 }

@@ -1,17 +1,37 @@
+#skills{
+    width: 100vw;
+}
 
-#skills {
-    height: 100vh;
+#skillSection {
     background-color: #161616;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .skillSet {
-    font-size: 7rem;
+    font-size: 6.5rem;
 }
 
 .sec {
-    padding: 20px;
-    letter-spacing: 5rem;
+   display: flex;
+   justify-content: space-evenly;
+   width: 800px;
+   height: 200px;
 }
+
+
+.headings {
+    font-size: 2.5rem;
+    padding: 50px;
+    text-align: center;
+}
+
+.fcgrey {
+    color: #373737;
+}
+
+a:link {
+    text-decoration: none;
+  }
