@@ -1,0 +1,27 @@
+
+#heading {
+    background-color: #161616;
+    font-family: 'Muli', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#nav {     
+    /* min-width: 25vw; */
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: flex-end;
+ 
+}
+
+
+.menu {
+    color: white;
+    display: inline-block;
+    margin-left: 15px;
+}

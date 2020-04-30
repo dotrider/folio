@@ -1,0 +1,17 @@
+
+#skills {
+    height: 100vh;
+    background-color: #161616;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillSet {
+    font-size: 7rem;
+}
+
+.sec {
+    padding: 20px;
+    letter-spacing: 5rem;
+}
