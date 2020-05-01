@@ -1,4 +1,17 @@
 #about {
-    height: 100vh;
+    height: 80vh;
     background-color: #161616;
+}
+
+.aboutContainer {
+    padding: 80px;
+}
+
+.connect {
+    padding-top: 75px;
+    text-align: center;
+}
+
+.para {
+    line-height: 1.2;
 }

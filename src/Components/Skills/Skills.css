@@ -32,6 +32,8 @@
     color: #373737;
 }
 
-a:link {
+a:link, a:visited{
     text-decoration: none;
+    color: white;
   }
+
