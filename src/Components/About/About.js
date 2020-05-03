@@ -6,7 +6,7 @@ const About = () => {
 
     return(
         <section id='about'>
-                 <h2 className='headings'>About</h2>
+                 <h2 className='headings'>About Me</h2>
                  <div className='aboutContainer'>
                 <div className='para'>
                     <p>Hello there, My name is Pablo, I'm a full stack web developer in the Phoenix area. It’s amazing all the awesome things you can build with some coding and a little bit of imagination right?!</p>
@@ -20,21 +20,18 @@ const About = () => {
                     </p>
                     <br/>
                     <p>
-                        I'm passionate about what I do and would like to collaborate with your projects. Let's connect!
+                        I'm passionate about what I do and would like to collaborate in your projects. Let's connect!
 
                     </p>
             
                  </div>
                  <div className='connect'>
-                 <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" icon="twitter"
-                 iconColor="rgba(55,55,55,1)" backgroundColor="rgba(28,186,223,0)" iconSize="1"
-                 url="https://twitter.com/" size="70" />
                  <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" icon="linkedin"
                  iconColor="rgba(55,55,55,1)" backgroundColor="rgba(28,186,223,0)" iconSize="1"
-                 url="https://www.linkedin.com/" size="70" />
+                 url="https://www.linkedin.com/in/pablo-e-miranda/" size="70" />
                  <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)"  icon="github"
                  iconColor="rgba(55,55,55,1)" backgroundColor="rgba(28,186,223,0)" iconSize="1"
-                 url="https://github.com/" size="70" />
+                 url="https://github.com/dotrider" size="70" />
                  </div>
                  </div>
         </section>
