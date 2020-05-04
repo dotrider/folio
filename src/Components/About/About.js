@@ -12,8 +12,15 @@ const About = () => {
                     <p>Hello there, My name is Pablo, I'm a full stack web developer in the Phoenix area. It’s amazing all the awesome things you can build with some coding and a little bit of imagination right?!</p>
                     <br/>
                     <p>
-                   I have a degree in web and graphic design, I also recently had the oportunity to attend DevMountain, an immersive three month coding bootcamp. Through my experience there I was able to build Full Stack Web Applications using P.E.R.N stack "PostgreSql, Express.js, React.js and Node.js". I also had the opportunity to collaborate with other classmates in group projects. 
-                    </p>
+                   I have a degree in web and graphic design, I also recently had the oportunity to attend DevMountain, an immersive three month coding bootcamp. 
+                   </p>
+                   <p>
+                       Through my experience there I was able to build Full Stack Web Applications using P.E.R.N stack "PostgreSql, Express.js, React.js and Node.js". 
+                   </p>
+                   <p>
+                   I also had the opportunity to collaborate with other classmates in group projects.
+                   </p>
+                   
                     <br/>
                     <p>
                         Besides coding, I like to do outdoor activities such as hiking, camping and explore Arizona's beautiful backcountry.

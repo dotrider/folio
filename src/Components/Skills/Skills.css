@@ -1,5 +1,6 @@
 #skills{
     width: 100vw;
+    
 }
 
 #skillSection {
@@ -38,7 +39,7 @@ a:link, a:visited{
   }
 
 
-  @media (min-width: 768px) {
+  @media (min-width: 700px) {
     
     .skillSet {
         font-size: 5.5rem;

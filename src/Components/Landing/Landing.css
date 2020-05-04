@@ -25,15 +25,22 @@
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 700px) {
     .landing {
         min-height: 80vh;
-        font-size: 5.7rem;
+        font-size: 4.5rem;
     }
     
     .mainText {
         max-width: 800px;
         line-height: 1.1;
+    }
+  
+}
+
+@media (min-width: 1024px) {
+    .landing {
+        font-size: 5.7rem;
     }
   
 }

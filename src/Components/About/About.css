@@ -1,5 +1,5 @@
 #about {
-    height: 80vh;
+    /* height: 80vh; */
     background-color: #161616;
 }
 
@@ -9,7 +9,7 @@
 }
 
 .connect {
-    padding-top: 75px;
+    padding-top: 50px;
     text-align: center;
 }
 
@@ -17,15 +17,21 @@
     line-height: 1.2;
 }
 
-@media (min-width: 768px) {
-    #about {
-        height: 80vh;
-        background-color: #161616;
-    }
+@media (min-width: 700px) {
     
+    .aboutContainer {
+        padding: 50px;
+        font-size: .85rem;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    /* #about {
+        height: 80vh;
+    } */
     .aboutContainer {
         padding: 50px;
         font-size: 1.2rem;
     }
-
 }
