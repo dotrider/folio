@@ -1,6 +1,7 @@
 #projects {
     height: 100vh;
     background-color: #161616;
+   
 }
 #upIcon {
     width: 45px;
@@ -11,4 +12,53 @@
     position: sticky;
     display: block;
     top: 0;
+}
+
+.projectPic {
+    width: 275px;
+    height: 200px;
+    border-radius: 5px;
+    border: 1px solid #83CD29;
+} 
+
+.contgrid {
+    display: grid;
+    grid-column: 275px;
+    grid-gap: 25px;
+    width: 275px;
+    margin: 0 auto;    
+}
+
+@media (min-width: 1024px) {
+    #projects {
+        height: 100vh;
+        background-color: #161616;
+       
+    }
+    #upIcon {
+        width: 45px;
+        height: 45px;
+        background-color: rgba(252, 252, 252, 0.153);
+        border-radius: 5px;
+        z-index: 1;
+        position: sticky;
+        display: block;
+        top: 0;
+    }
+    
+    .projectPic {
+        width: 350px;
+        height: 230px;
+        border-radius: 5px;
+        border: 1px solid #83CD29;
+    } 
+    
+    .contgrid {
+        display: grid;
+        grid-template-columns: repeat(2, 350px);
+        grid-gap: 50px;
+        /* grid-auto-rows: minmax(100px, auto); */
+        width: 700px;
+        margin: 0 auto;    
+    }
 }

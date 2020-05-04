@@ -1,27 +1,57 @@
 .landing {
     background-color: #161616;
     min-height: 80vh;
-    font-size: 5.7rem;
+    font-size: 2.5rem;
     text-transform: uppercase;
     text-align: center;
-    /* width: 100vw; */
 }
 
 .mainText {
-    max-width: 800px;
+    max-width: 300px;
     font-family: 'Lato', sans-serif;
     margin-top: 80px;
     letter-spacing: .2rem;
     text-align: left;
     padding-left: 50px;
-    line-height: 1.1;
+    line-height: 1.2;
 }
 
 .title {
     color: #373737;
-    /* font-weight: 500; */
 }
 
 .bold {
     font-weight: 700;
+}
+
+@media (min-width: 1024px) {
+
+    .landing {
+        background-color: #161616;
+        min-height: 80vh;
+        font-size: 5.7rem;
+        text-transform: uppercase;
+        text-align: center;
+        /* width: 100vw; */
+    }
+    
+    .mainText {
+        max-width: 800px;
+        font-family: 'Lato', sans-serif;
+        margin-top: 80px;
+        letter-spacing: .2rem;
+        text-align: left;
+        padding-left: 50px;
+        line-height: 1.1;
+    }
+    
+    .title {
+        color: #373737;
+        /* font-weight: 500; */
+    }
+    
+    .bold {
+        font-weight: 700;
+    }
+
 }

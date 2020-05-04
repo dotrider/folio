@@ -4,7 +4,8 @@
 }
 
 .aboutContainer {
-    padding: 80px;
+    padding: 25px;
+    font-size: .85rem;
 }
 
 .connect {
@@ -14,4 +15,24 @@
 
 .para {
     line-height: 1.2;
+}
+
+@media (min-width: 1024px) {
+    #about {
+        height: 80vh;
+        background-color: #161616;
+    }
+    
+    .aboutContainer {
+        padding: 80px;
+    }
+    
+    .connect {
+        padding-top: 75px;
+        text-align: center;
+    }
+    
+    .para {
+        line-height: 1.2;
+    }
 }
