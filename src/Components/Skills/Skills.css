@@ -37,43 +37,30 @@ a:link, a:visited{
     color: white;
   }
 
-@media (min-width: 1024px) {
-    #skills{
-        width: 100vw;
+
+  @media (min-width: 768px) {
+    
+    .skillSet {
+        font-size: 5.5rem;
     }
     
-    #skillSection {
-        background-color: #161616;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
+    .sec {
+       width: 700px;
+       height: 200px;
     }
+    
+    
+}
+
+@media (min-width: 1024px) {
     
     .skillSet {
         font-size: 6.5rem;
     }
     
     .sec {
-       display: flex;
-       justify-content: space-evenly;
        width: 800px;
        height: 200px;
     }
-    
-    
-    .headings {
-        font-size: 2.5rem;
-        padding: 50px;
-        text-align: center;
-    }
-    
-    .fcgrey {
-        color: #373737;
-    }
-    
-    a:link, a:visited{
-        text-decoration: none;
-        color: white;
-      }
+
 }

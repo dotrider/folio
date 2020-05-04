@@ -17,22 +17,15 @@
     line-height: 1.2;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
     #about {
         height: 80vh;
         background-color: #161616;
     }
     
     .aboutContainer {
-        padding: 80px;
+        padding: 50px;
+        font-size: 1.2rem;
     }
-    
-    .connect {
-        padding-top: 75px;
-        text-align: center;
-    }
-    
-    .para {
-        line-height: 1.2;
-    }
+
 }
