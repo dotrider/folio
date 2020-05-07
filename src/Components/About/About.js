@@ -1,5 +1,6 @@
 import React from 'react';
 import { SocialMediaIconsReact } from 'social-media-icons-react';
+import resume from '../Resume/Miranda_WPX17_20200403_.pdf';
 import './About.css';
 
 const About = () => {
@@ -33,6 +34,9 @@ const About = () => {
             
                  </div>
                  <div className='connect'>
+                 <div id='resume-container'>
+                     <a href={resume} target='_blank' rel='noopener noreferrer'><span id='resume'>Resume</span></a>
+                 </div>
                  <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" icon="linkedin"
                  iconColor="rgba(55,55,55,1)" backgroundColor="rgba(28,186,223,0)" iconSize="1"
                  url="https://www.linkedin.com/in/pablo-e-miranda/" size="70" />
