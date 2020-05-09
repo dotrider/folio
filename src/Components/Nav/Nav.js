@@ -7,13 +7,6 @@ const Nav = () => {
     return(
            <section id='heading'>
             <nav id='nav'>
-            <Link    
-            activeClass="active"
-            to="heading"
-            spy={true}
-            smooth={true}
-            // offset={-70}
-            duration= {600} className="item"><span className='menu'>Home</span></Link>
 
             <Link    
             activeClass="active"
@@ -38,6 +31,14 @@ const Nav = () => {
             smooth={true}
             // offset={-70}
             duration= {600} className="item"><span className='menu'>About</span></Link>
+
+            {/* <Link    
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            // offset={-70}
+            duration= {600} className="item"><span className='menu'>Resume</span></Link> */}
             </nav>
             </section>
     )

@@ -38,11 +38,13 @@ const About = () => {
                      <a href={resume} target='_blank' rel='noopener noreferrer'><span id='resume'>Resume</span></a>
                  </div>
                  <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" icon="linkedin"
-                 iconColor="rgba(55,55,55,1)" backgroundColor="rgba(28,186,223,0)" iconSize="1"
-                 url="https://www.linkedin.com/in/pablo-e-miranda/" size="70" />
+                 iconColor="#0077B5" backgroundColor="rgba(28,186,223,0)" iconSize="1"
+                 url="https://www.linkedin.com/in/pablo-e-miranda/" size="60" />
                  <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)"  icon="github"
-                 iconColor="rgba(55,55,55,1)" backgroundColor="rgba(28,186,223,0)" iconSize="1"
-                 url="https://github.com/dotrider" size="70" />
+                 iconColor="#FFFFFF" backgroundColor="rgba(28,186,223,0)" iconSize="1"
+                 url="https://github.com/dotrider" size="60" />
+                 <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" icon="mail" iconColor="#373737"
+                 backgroundColor="rgba(28,186,223,0)" iconSize="5" url="mailto:pabmiranda.e@gmail.com" size="60" />
                  </div>
                  </div>
         </section>

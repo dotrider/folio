@@ -19,16 +19,25 @@
 
 #resume-container {
     padding-bottom: 20px;
+    cursor: pointer;
 }
 
 #resume {
-    width: 50px;
-    border: 1px solid #61DBFB;
+    /* width: 50px; */
+    border: 1px solid white;
     border-radius: 5px;
-    background-color: #161616;
-    padding: 5px;
-    color: #F0DB4F;
+    background-color: #83CD29;
+    padding: 5px 15px;
+    color: white;
+    
 }
+
+#resume:active {
+    box-shadow: 0 3px white;
+    transform: translateY(3px);
+}
+
+
 @media (min-width: 700px) {
     
     .aboutContainer {

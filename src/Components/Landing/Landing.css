@@ -4,22 +4,26 @@
     font-size: 2.5rem;
     text-transform: uppercase;
     text-align: center;
+
 }
 
 .mainText {
     max-width: 300px;
     font-family: 'Lato', sans-serif;
-    margin-top: 80px;
-    letter-spacing: .2rem;
+    margin-top: 100px;
     text-align: left;
-    padding-left: 50px;
+    padding-left: 30px;
     line-height: 1.2;
 }
 
 .title {
     color: #373737;
+    letter-spacing: .1rem;
 }
 
+.name {
+
+}
 .bold {
     font-weight: 700;
 }
@@ -34,6 +38,7 @@
     .mainText {
         max-width: 800px;
         line-height: 1.1;
+        padding-left: 50px;
     }
   
 }

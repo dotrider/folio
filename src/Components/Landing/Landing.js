@@ -10,10 +10,10 @@ const Landing = () => {
         <section id='home' className='landing'>
            <animated.div style={fade}>
                 <div className='mainText'>
-                <div><h1>Hi!</h1>
-                <h1><span className='bold'>I'm</span> Pablo,
-                <span className='title'> Full Stack Web
-                <span className='bold'> Developer</span></span></h1></div>
+                    <div><h1 className='name'>Pablo <span className='bold'>Miranda</span></h1>
+                        <h1 className='title'>Full Stack
+                        <span className='bold'> <br/> Web Developer</span></h1>
+                    </div>
                 </div>
            </animated.div>
         </section>
