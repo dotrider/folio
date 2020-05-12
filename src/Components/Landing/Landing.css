@@ -21,9 +21,6 @@
     letter-spacing: .1rem;
 }
 
-.name {
-
-}
 .bold {
     font-weight: 700;
 }
@@ -39,6 +36,7 @@
         max-width: 800px;
         line-height: 1.1;
         padding-left: 50px;
+        margin-top: 150px;
     }
   
 }

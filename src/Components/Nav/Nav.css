@@ -25,6 +25,11 @@
     display: inline-block;
     margin-left: 15px;
 }
+@media (min-width: 700px){
+    #nav{
+        margin-left: 25px;
+    }
+}
 
 @media (min-width: 1024px){
 
