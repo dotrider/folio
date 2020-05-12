@@ -29,6 +29,32 @@
     margin: 0 auto;   
 }
 
+.project-description{
+    padding: 5px;
+  
+}
+
+.project-name{
+    color: red;
+   width: 100px;
+   margin: 0 auto;
+   padding: 10px;
+}
+
+.live-site {
+
+    margin: 0 auto;
+}
+
+.colorizer {
+    color: #F0DB4F;
+}
+
+.ns {
+    color: #E54D26;
+}
+
+
 @media (min-width: 700px) {
     #projects {
         height: 100vh;
