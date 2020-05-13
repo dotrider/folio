@@ -1,5 +1,6 @@
 #skills{
     width: 100vw;
+    /* height: 90vh; */
     
 }
 
@@ -24,7 +25,7 @@
 
 
 .headings {
-    font-size: 2rem;
+    font-size: 1.3rem;
     padding: 50px;
     text-align: center;
     text-transform: uppercase;
@@ -43,21 +44,26 @@ a:link, a:visited{
   @media (min-width: 700px) {
     
     .skillSet {
-        font-size: 5.5rem;
+        font-size: 5rem;
     }
     
     .sec {
        width: 700px;
        height: 200px;
     }
-    
+    /* #skills{
+        width: 100vw;
+        height: 100vh;
+        
+    }
+     */
     
 }
 
 @media (min-width: 1024px) {
     
     .skillSet {
-        font-size: 6.5rem;
+        font-size: 6rem;
     }
     
     .sec {

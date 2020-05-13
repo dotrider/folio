@@ -1,19 +1,17 @@
 .landing {
     background-color: #161616;
-    min-height: 60vh;
-    font-size: 2.5rem;
-    text-transform: uppercase;
-    text-align: center;
-
+    height: 100vh;
+    /* text-align: center; */
 }
 
 .mainText {
     max-width: 300px;
     font-family: 'Lato', sans-serif;
-    margin-top: 100px;
+    padding: 175px 0 0 30px;
     text-align: left;
-    padding-left: 30px;
     line-height: 1.2;
+    font-size: 2rem;
+    text-transform: uppercase;
 }
 
 .title {
@@ -28,22 +26,21 @@
 
 @media (min-width: 700px) {
     .landing {
-        min-height: 80vh;
-        font-size: 4.5rem;
+        min-height: 90vh;
     }
     
     .mainText {
         max-width: 800px;
         line-height: 1.1;
-        padding-left: 50px;
-        margin-top: 150px;
+        padding: 150px 0 0 50px;
+        font-size: 4rem;
     }
   
 }
 
 @media (min-width: 1024px) {
-    .landing {
-        font-size: 5.7rem;
+    .mainText {
+        font-size: 4.5rem;
     }
   
 }

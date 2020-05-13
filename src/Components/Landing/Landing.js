@@ -1,6 +1,7 @@
 import React from 'react';
 // import { SocialMediaIconsReact } from 'social-media-icons-react';
 import {useSpring, animated} from 'react-spring'
+import Nav from '../Nav/Nav';
 import './Landing.css';
 
 const Landing = () => {
@@ -8,6 +9,7 @@ const Landing = () => {
 
     return(
         <section id='home' className='landing'>
+            <Nav/>
            <animated.div style={fade}>
                 <div className='mainText'>
                     <div><h1 className='name'>Pablo <span className='bold'>Miranda</span></h1>

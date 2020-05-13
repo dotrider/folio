@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-scroll';
 import ns from '../../pic/ns.png';
 import color from '../../pic/color.png'
 import './Projects.css';
@@ -10,28 +9,19 @@ const Projects = () => {
     return(
         <section id='projects'>
             <h2 className='headings'>Projects</h2>
-            {/* <Link    
-                activeClass="active"
-                to="heading"
-                spy={true}
-                smooth={true}
-                // offset={-70}
-                duration= {800} className="item"> <div id='upIcon'>^</div>
-              </Link> */}
-  
             <div className='contgrid'>
                 <div>
                     <img alt={ns} className='projectPic' src={ns}/>
                     <div className='project-description'>
                         <div className='project-name ns'>
-                            <h3 className='h3'>NoSponsors</h3>
+                            <h3 className='h3'>#NoSponsors</h3>
                         </div>
-                        <p>NoSponsors is a Full Stack Application I built as a Student during my time in DevMountain.
-                            It features a forum where off-Road vehicle enthusiasts can collaborate on their vehicle builds and
-                            an integrated store where they can buy products to support the off-road community.
+                        <p>#NoSponsors is a Full Stack Application I built as a Student during my time in DevMountain.
+                            It features a forum where off-Road enthusiasts can collaborate on their vehicle builds it allows
+                             includes a store where they can buy products to support the off-road #nosponsors community.
                         </p>
                     </div>
-                    <span className='live-site'>Live Site</span>  
+                    <a href="http://157.245.239.118:3000/" target="_blank" rel="noopener noreferrer"><span className='live-site'>Live Site</span></a>  
                 </div>
 
                 <div>
@@ -45,7 +35,7 @@ const Projects = () => {
                             in a png file. A great app to have fun with friends and family.
                         </p>
                     </div>
-                    <span className='live-site'>Live Site</span>  
+                    <a href="https://colorizer.io/" target="_blank" rel="noopener noreferrer"><span className='live-site'>Live Site</span></a> 
                 </div>
             </div>
         

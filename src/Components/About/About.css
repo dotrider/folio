@@ -15,6 +15,7 @@
 
 .para {
     line-height: 1.2;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #resume-container {
@@ -44,6 +45,7 @@
         padding: 50px;
         font-size: .85rem;
     }
+    
 
 }
 
