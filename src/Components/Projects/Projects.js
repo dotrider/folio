@@ -17,8 +17,8 @@ const Projects = () => {
                             <h3 className='h3'>#NoSponsors</h3>
                         </div>
                         <p>#NoSponsors is a Full Stack Application I built as a Student during my time in DevMountain.
-                            It features a forum where off-Road enthusiasts can collaborate on their vehicle builds it allows
-                             includes a store where they can buy products to support the off-road #nosponsors community.
+                            It features a forum where off-Road enthusiasts can collaborate on their vehicle builds it 
+                            includes a store where they can buy products to support the off-road #nosponsors community.
                         </p>
                     </div>
                     <p className='techs'>React <span> | </span> Stripe <span> | </span> Nodejs <span> | </span> bcrypt <span> | </span> PostgreSql</p>
