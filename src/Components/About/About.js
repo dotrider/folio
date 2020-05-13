@@ -1,6 +1,6 @@
 import React from 'react';
 import { SocialMediaIconsReact } from 'social-media-icons-react';
-import resume from '../Resume/Miranda_WPX17_20200403_.pdf';
+import resume from '../Resume/Miranda_WPX17_20200403.pdf';
 import './About.css';
 
 const About = () => {
