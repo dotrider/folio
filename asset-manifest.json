@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.021baece.chunk.css",
-    "main.js": "/static/js/main.5336a88a.chunk.js",
-    "main.js.map": "/static/js/main.5336a88a.chunk.js.map",
+    "main.js": "/static/js/main.d3a18e1e.chunk.js",
+    "main.js.map": "/static/js/main.d3a18e1e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.23507236.js",
     "runtime-main.js.map": "/static/js/runtime-main.23507236.js.map",
     "static/js/2.f78774da.chunk.js": "/static/js/2.f78774da.chunk.js",
     "static/js/2.f78774da.chunk.js.map": "/static/js/2.f78774da.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a6dbdc544132cbe816f5c8199a5d6790.js": "/precache-manifest.a6dbdc544132cbe816f5c8199a5d6790.js",
+    "precache-manifest.ed0f26e8ccddb9e66d72724f5a8b080e.js": "/precache-manifest.ed0f26e8ccddb9e66d72724f5a8b080e.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.021baece.chunk.css.map": "/static/css/main.021baece.chunk.css.map",
     "static/js/2.f78774da.chunk.js.LICENSE.txt": "/static/js/2.f78774da.chunk.js.LICENSE.txt",
-    "static/media/Miranda_WPX17_20200403_.pdf": "/static/media/Miranda_WPX17_20200403_.6a97cef5.pdf",
+    "static/media/Miranda_WPX17_20200403.pdf": "/static/media/Miranda_WPX17_20200403.31ec65c8.pdf",
     "static/media/color.png": "/static/media/color.eb0632af.png",
     "static/media/ns.png": "/static/media/ns.f2f50078.png"
   },
@@ -20,6 +20,6 @@
     "static/js/runtime-main.23507236.js",
     "static/js/2.f78774da.chunk.js",
     "static/css/main.021baece.chunk.css",
-    "static/js/main.5336a88a.chunk.js"
+    "static/js/main.d3a18e1e.chunk.js"
   ]
 }
