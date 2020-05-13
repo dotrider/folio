@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8146573e089826a07b4981177fe17658",
+    "revision": "d3c375e7b53cb402c2597066f1a1a34a",
     "url": "/index.html"
   },
   {
-    "revision": "bfc79003b86f83fe5c0f",
+    "revision": "e92fc2146bd4e4a2efae",
     "url": "/static/css/main.021baece.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.f78774da.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bfc79003b86f83fe5c0f",
-    "url": "/static/js/main.d3a18e1e.chunk.js"
+    "revision": "e92fc2146bd4e4a2efae",
+    "url": "/static/js/main.a132dff0.chunk.js"
   },
   {
     "revision": "ea906b9130346fa2f275",
     "url": "/static/js/runtime-main.23507236.js"
   },
   {
-    "revision": "31ec65c8683229d48c74bc4921d586bc",
-    "url": "/static/media/Miranda_WPX17_20200403.31ec65c8.pdf"
+    "revision": "430e754582e7ac9db7c1581c09a7440a",
+    "url": "/static/media/Miranda_WPX17_20200403.430e7545.pdf"
   },
   {
     "revision": "eb0632af8ac66a392cacdca5bbc191c9",
