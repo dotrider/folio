@@ -1,6 +1,6 @@
 .landing {
     background-color: #161616;
-    height: 100vh;
+    min-height: 100vh;
     /* text-align: center; */
 }
 
@@ -25,9 +25,9 @@
 
 
 @media (min-width: 700px) {
-    .landing {
-        min-height: 90vh;
-    }
+    /* .landing {
+        min-height: 100vh;
+    } */
     
     .mainText {
         max-width: 800px;
@@ -42,6 +42,10 @@
     .mainText {
         font-size: 4.5rem;
     }
+
+    /* .landing {
+        min-height: 100vh;
+    } */
   
 }
 

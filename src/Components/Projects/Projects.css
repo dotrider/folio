@@ -59,7 +59,18 @@
     color: #E54D26;
 }
 
+.techs {
+    color: #83CD29;
+    font-size: .75rem;
+    display: flex;
+    justify-content: center;
+}
 
+.techs > span {
+    color: white;
+    display: block;
+    padding: 0 4px;
+}
 
 @media (min-width: 700px) {
     #projects {

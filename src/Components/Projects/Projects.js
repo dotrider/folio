@@ -21,6 +21,7 @@ const Projects = () => {
                              includes a store where they can buy products to support the off-road #nosponsors community.
                         </p>
                     </div>
+                    <p className='techs'>React <span> | </span> Stripe <span> | </span> Nodejs <span> | </span> bcrypt <span> | </span> PostgreSql</p>
                     <a href="http://157.245.239.118:3000/" target="_blank" rel="noopener noreferrer"><span className='live-site'>Live Site</span></a>  
                 </div>
 
@@ -35,6 +36,7 @@ const Projects = () => {
                             in a png file. A great app to have fun with friends and family.
                         </p>
                     </div>
+                    <p className='techs'>React <span> | </span> Nodejs <span> | </span> Socket.io <span> | </span> Mongoose MDB</p>
                     <a href="https://colorizer.io/" target="_blank" rel="noopener noreferrer"><span className='live-site'>Live Site</span></a> 
                 </div>
             </div>
