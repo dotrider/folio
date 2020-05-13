@@ -46,9 +46,13 @@
 .live-site {
   display: flex;
   justify-content: center;
-  padding: 10px;
+  padding: 15px;
   color: #61DBFB;
   font-weight: 700;
+}
+
+.live-site:active {
+    transform: translateY(4px);
 }
 
 .colorizer {
@@ -60,14 +64,14 @@
 }
 
 .techs {
-    color: #83CD29;
+    color: rgb(172, 172, 172);
     font-size: .75rem;
     display: flex;
     justify-content: center;
 }
 
 .techs > span {
-    color: white;
+    color: #373737;
     display: block;
     padding: 0 4px;
 }

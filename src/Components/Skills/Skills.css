@@ -9,6 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px;
     
 }
 
@@ -38,6 +39,10 @@
 a:link, a:visited{
     text-decoration: none;
     color: white;
+  }
+  
+  .sec > a:active {
+    transform: translateY(4px);
   }
 
 
