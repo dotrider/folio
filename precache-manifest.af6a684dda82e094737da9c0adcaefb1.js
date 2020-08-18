@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d3c375e7b53cb402c2597066f1a1a34a",
+    "revision": "b0b59df9ec0b85b0970dbb2017738bf4",
     "url": "/index.html"
   },
   {
-    "revision": "e92fc2146bd4e4a2efae",
-    "url": "/static/css/main.021baece.chunk.css"
+    "revision": "8692f8df7382ae0a38d9",
+    "url": "/static/css/main.7d1dba51.chunk.css"
   },
   {
-    "revision": "8a57c129ce6ad40c4cf0",
-    "url": "/static/js/2.f78774da.chunk.js"
+    "revision": "1f8f9ae90d4e6b7ead48",
+    "url": "/static/js/2.7dc798c8.chunk.js"
   },
   {
     "revision": "ccc502121842bd2ec2d999aa7d823359",
-    "url": "/static/js/2.f78774da.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.7dc798c8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e92fc2146bd4e4a2efae",
-    "url": "/static/js/main.a132dff0.chunk.js"
+    "revision": "8692f8df7382ae0a38d9",
+    "url": "/static/js/main.66823a51.chunk.js"
   },
   {
     "revision": "ea906b9130346fa2f275",
     "url": "/static/js/runtime-main.23507236.js"
   },
   {
-    "revision": "430e754582e7ac9db7c1581c09a7440a",
-    "url": "/static/media/Miranda_WPX17_20200403.430e7545.pdf"
+    "revision": "be6e2eb7f0f6783d18b29f2b66cf496b",
+    "url": "/static/media/Miranda_Pablo.be6e2eb7.pdf"
   },
   {
     "revision": "eb0632af8ac66a392cacdca5bbc191c9",
