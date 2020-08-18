@@ -3,6 +3,9 @@
     background-color: #161616;
    
 }
+
+
+
 #upIcon {
     width: 45px;
     height: 45px;
@@ -26,7 +29,7 @@
     grid-column: 275px;
     grid-gap: 25px;
     width: 275px;
-    margin: 0 auto;   
+    margin: 16px auto;   
 }
 
 .project-description{
@@ -64,14 +67,13 @@
 }
 
 .techs {
-    color: rgb(172, 172, 172);
     font-size: .75rem;
     display: flex;
     justify-content: center;
 }
 
 .techs > span {
-    color: #373737;
+    color: rgb(172, 172, 172);
     display: block;
     padding: 0 4px;
 }
