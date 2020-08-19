@@ -3,19 +3,19 @@
     background-color: #161616;
 }
 
+.about-me {
+    line-height: 1.2;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 .aboutContainer {
     padding: 25px;
-    font-size: .85rem;
+    font-size: 1rem;
 }
 
 .connect {
     padding-top: 50px;
     text-align: center;
-}
-
-.para {
-    line-height: 1.2;
-    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #resume-container {

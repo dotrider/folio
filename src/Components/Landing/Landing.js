@@ -4,7 +4,7 @@ import Nav from '../Nav/Nav';
 import './Landing.css';
 
 const Landing = () => {
-    const fade = useSpring({from:{ opacity: 0}, to:{opacity: 1}, config: { duration: 2000 }})
+    const fade = useSpring({from:{ opacity: 0}, to:{opacity: 1}, config: { duration: 1500 }})
     const [ user, setUser ] = useState({
         firstName: 'Pablo',
         lastName: 'Miranda',
