@@ -1,5 +1,6 @@
 import noSponsors from './pic/ns.png'
 import colorizer from './pic/color.png'
+import keepItTight from './pic/keepItTight.png'
 
 const data = [
     {
@@ -23,6 +24,17 @@ const data = [
         description: `A collaborative drawing app built as a group project with my Teammate Jared Baur.
         Colorizer allows multiple users to draw on the same Canvas and export their final art
         in a png file. A great app to have fun with friends and family.`
+
+    },
+    {
+        id: 3,
+        name: 'Keep it tight',
+        image: keepItTight,
+        liveSite: 'https://github.com/dotrider/keepItTight',
+        technologies: ['React', 'NodeJs', 'ExpressJS', 'Mongoose MDB'],
+        description: `Full stack the app built from the ground up that
+       allows users to keep track of their spending and expenses with a reflecting
+       balance of current time. `
 
     }
 ]

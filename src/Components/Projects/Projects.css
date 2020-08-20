@@ -101,7 +101,7 @@
 
 @media (min-width: 1024px) {
     #projects {
-        height: 100vh;
+        /* height: 100vh; */
         background-color: #161616;
        
     }
