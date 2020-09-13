@@ -1,7 +1,7 @@
 import noSponsors from './pic/ns.png'
 import colorizer from './pic/color.png'
 import keepItTight from './pic/keepItTight.png'
-import mmsservices from './pic/mmsservices.png'
+import landscapings from './pic/landscapings.png'
 
 const data = [
     {
@@ -42,8 +42,8 @@ const data = [
     {
         id: 4,
         name: 'MMS Landscaping Services',
-        image: mmsservices,
-        liveSite: 'mmslandscaping.com',
+        image: landscapings,
+        liveSite: 'mmslandscapingservices.com',
         technologies: ['Material UI', 'Recaptcha', 'Nodemailer', 'gsap'],
         description: `Front-End Reactjs site with nodejs and expressjs for the server which allows 
         a user friendly experience with clean and simple UI backed with dynamic functionality.`
