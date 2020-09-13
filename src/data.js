@@ -1,7 +1,7 @@
 import noSponsors from './pic/ns.png'
 import colorizer from './pic/color.png'
 import keepItTight from './pic/keepItTight.png'
-import landscapings from './pic/landscapings.png'
+import landscapings from './pic/landscapings.gif'
 
 const data = [
     {
