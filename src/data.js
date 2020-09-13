@@ -47,7 +47,7 @@ const data = [
         technologies: ['Material UI', 'Recaptcha', 'Nodemailer', 'gsap'],
         description: `Front-End Reactjs site with nodejs and expressjs for the server which allows 
         a user friendly experience with clean and simple UI backed with dynamic functionality.`
-
+    }
 ]
 
 export default data
