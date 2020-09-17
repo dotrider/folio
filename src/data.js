@@ -45,7 +45,7 @@ const data = [
         image: landscapings,
         liveSite: 'http://mmslandscapingservices.com',
         technologies: ['Material UI', 'Recaptcha', 'Nodemailer', 'gsap'],
-        description: `Quarter stack app built with React for the FrontEnd as well as Nodejs and expressjs for the backend. The site displays information about the company in a user friendly UI. It also features a contact form enforced by Google's Re-Captch to prevent spam emails to the admin.`
+        description: `Quarter stack app built with React for the FrontEnd as well as Nodejs and expressjs for the backend. The site displays information about the company in a user friendly UI. It also features a contact form enforced by Google's Re-Captcha to prevent spam emails to the admin.`
     }
 ]
 
