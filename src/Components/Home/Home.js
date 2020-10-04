@@ -15,17 +15,17 @@ const Landing = () => {
     const { firstName, lastName, occupation } = user
     return(
         <section id='home' className='home-text-cont'>
-           <MDBAnimation type='slideInLeft'>
+           <MDBAnimation type='slideInLeft' duration="2s">
               <Typography variant='h4'> 
                     {firstName} 
                     <span className='bold-text'> {lastName}</span>
               </Typography>
            </MDBAnimation>
                     <Typography variant='h4' className='occupation-text'>
-                        <MDBAnimation type='slideInRight'>
+                        <MDBAnimation type='slideInRight' duration="1s">
                             {occupation[0]}
                         </MDBAnimation>
-                        <MDBAnimation type='slideInLeft'>
+                        <MDBAnimation type='slideInLeft' duration="2s">
                             <span className='bold-text'>{occupation[1]}</span>
                         </MDBAnimation>
                     </Typography>

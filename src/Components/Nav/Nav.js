@@ -19,7 +19,7 @@ const Nav = () => {
                         },
                         {
                             id: 2,
-                            name: 'About', 
+                            name: 'About Me', 
                             page: 'about'
                         }
                     
