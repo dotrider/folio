@@ -4,43 +4,42 @@ import './Nav.css';
 
 const Nav = () => {
 
+    const navMenu = [
+                        {
+                            id: 0,
+                            name: 'Projects', 
+                            page: 'projects'
+                        },
+                        {   
+                            id: 1,
+                            name: 'Skills', 
+                            page: 'skills'
+                        },
+                        {
+                            id: 2,
+                            name: 'About', 
+                            page: 'about'
+                        }
+                    
+                    ]
+
     return(
-           <section id='heading'>
-            <nav id='nav'>
-
-            <Link    
-            activeClass="active"
-            to="projects"
-            spy={true}
-            smooth={true}
-            // offset={-70}
-            duration= {600} className="item"><span className='menu'>Projects</span></Link>
-
-            <Link    
-            activeClass="active"
-            to="skills"
-            spy={true}
-            smooth={true}
-            // offset={-70}
-            duration= {600} className="item"><span className='menu'>Skills</span></Link>
-
-            <Link    
-            activeClass="active"
-            to="about"
-            spy={true}
-            smooth={true}
-            // offset={-70}
-            duration= {600} className="item"><span className='menu'>About</span></Link>
-
-            {/* <Link    
-            activeClass="active"
-            to="about"
-            spy={true}
-            smooth={true}
-            // offset={-70}
-            duration= {600} className="item"><span className='menu'>Resume</span></Link> */}
-            </nav>
-            </section>
+           <header id='heading'>
+                <nav id='nav'>
+                    {
+                        navMenu.map(({id, name, page}) => 
+                            <Link id={id}  
+                                activeClass="active"
+                                to={page}
+                                spy={true}
+                                smooth={true}
+                                // offset={-70}
+                                duration= {600} className="item"><span className='menu'>{name}</span>
+                            </Link>
+                        )
+                    }
+                </nav>
+            </header>
     )
 }
 
