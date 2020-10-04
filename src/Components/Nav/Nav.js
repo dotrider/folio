@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-scroll'
 import { Typography } from '@material-ui/core'
+import { MDBAnimation } from "mdbreact";
 import './Nav.css';
 
 const Nav = () => {
@@ -26,24 +27,26 @@ const Nav = () => {
 
     return(
            <header id='heading'>
-                <nav id='nav'>
-                    {
-                        navMenu.map(({id, name, page}) => 
-                            <Link id={id}  
-                                activeClass="active"
-                                to={page}
-                                spy={true}
-                                smooth={true}
-                                // offset={-70}
-                                duration= {600} 
-                            >
-                                    <Typography variant='subtitle1' className='nav-link'>
-                                        {name}
-                                    </Typography>
-                            </Link>
-                        )
-                    }
-                </nav>
+                <MDBAnimation type='fadeIn' delay="1s">
+                        <nav id='nav'>
+                            {
+                                navMenu.map(({id, name, page}) => 
+                                    <Link id={id}  
+                                        activeClass="active"
+                                        to={page}
+                                        spy={true}
+                                        smooth={true}
+                                        // offset={-70}
+                                        duration= {600} 
+                                    >
+                                                <Typography variant='subtitle1' className='nav-link'>
+                                                    {name}
+                                                </Typography>
+                                    </Link>
+                                )
+                            }
+                        </nav>
+                    </MDBAnimation>
             </header>
     )
 }
