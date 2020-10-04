@@ -1,0 +1,43 @@
+
+#home {
+    background-color: #161616;
+    height: 80vh;
+}
+
+.home-text-cont {
+    padding: 10em 0 0 2.5em;
+    text-transform: uppercase;
+}
+
+.occupation-text{
+    color: #373737;
+    letter-spacing: .1rem;
+}
+
+.bold-text {
+    font-weight: 500;
+}
+
+
+/* @media (min-width: 700px) {
+    .landing {
+        margin-bottom: 5em;
+    }
+    
+    .home-text-cont {
+        max-width: 800px;
+        line-height: 1.1;
+        padding: 100px 0 0 50px;
+        font-size: 2.5rem;
+    }
+  
+}
+
+@media (min-width: 1024px) {
+    .home-text-contt {
+        font-size: 4.5rem;
+        padding: 150px 0 0 50px;
+    }    
+  
+} */
+
