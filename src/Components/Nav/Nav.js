@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-scroll'
+import { Typography } from '@material-ui/core'
 import './Nav.css';
 
 const Nav = () => {
@@ -34,7 +35,11 @@ const Nav = () => {
                                 spy={true}
                                 smooth={true}
                                 // offset={-70}
-                                duration= {600} className="item"><span className='menu'>{name}</span>
+                                duration= {600} 
+                            >
+                                    <Typography variant='subtitle1' className='nav-link'>
+                                        {name}
+                                    </Typography>
                             </Link>
                         )
                     }

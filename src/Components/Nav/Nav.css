@@ -1,32 +1,13 @@
 
-#heading {
-    background-color: #161616;
-    font-family: 'Muli', sans-serif;
-    font-weight: 600;
-    font-size: 1rem;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-}
-
 #nav {     
-    background-color: #161616;
     display: flex;
-    justify-content: space-between;
-    padding: 100px 0 0 20px;
-    align-items: flex-end;
+    padding: 5em 0 0 1.5em;
     cursor: pointer;
-
 }
 
 
-.menu {
-    color: white;
-    display: inline-block;
-    margin-left: 15px;
-}
 
-.menu:hover {
+.nav-link:hover {
     color: #E54D26;
 }
     
