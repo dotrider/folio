@@ -78,6 +78,10 @@
     padding: 0 4px;
 }
 
+.project-name {
+    font-size: 1.5rem;
+}
+
 @media (min-width: 700px) {
     #projects {
         /* height: 100vh; */
