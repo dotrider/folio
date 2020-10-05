@@ -1,27 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.a35a2284.chunk.css",
-    "main.js": "/static/js/main.fd7f8f2e.chunk.js",
-    "main.js.map": "/static/js/main.fd7f8f2e.chunk.js.map",
+    "main.css": "/static/css/main.e060399b.chunk.css",
+    "main.js": "/static/js/main.c52779cd.chunk.js",
+    "main.js.map": "/static/js/main.c52779cd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.23507236.js",
     "runtime-main.js.map": "/static/js/runtime-main.23507236.js.map",
-    "static/js/2.64b4d0ef.chunk.js": "/static/js/2.64b4d0ef.chunk.js",
-    "static/js/2.64b4d0ef.chunk.js.map": "/static/js/2.64b4d0ef.chunk.js.map",
+    "static/css/2.8884c411.chunk.css": "/static/css/2.8884c411.chunk.css",
+    "static/js/2.5c45cc7a.chunk.js": "/static/js/2.5c45cc7a.chunk.js",
+    "static/js/2.5c45cc7a.chunk.js.map": "/static/js/2.5c45cc7a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.bf4ff51a66e0338a7a2ceaff389b64fc.js": "/precache-manifest.bf4ff51a66e0338a7a2ceaff389b64fc.js",
+    "precache-manifest.6589c2e53d5f55ed7e36266ea12c7737.js": "/precache-manifest.6589c2e53d5f55ed7e36266ea12c7737.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.a35a2284.chunk.css.map": "/static/css/main.a35a2284.chunk.css.map",
-    "static/js/2.64b4d0ef.chunk.js.LICENSE.txt": "/static/js/2.64b4d0ef.chunk.js.LICENSE.txt",
-    "static/media/Miranda_Pablo.pdf": "/static/media/Miranda_Pablo.be6e2eb7.pdf",
+    "static/css/2.8884c411.chunk.css.map": "/static/css/2.8884c411.chunk.css.map",
+    "static/css/main.e060399b.chunk.css.map": "/static/css/main.e060399b.chunk.css.map",
+    "static/js/2.5c45cc7a.chunk.js.LICENSE.txt": "/static/js/2.5c45cc7a.chunk.js.LICENSE.txt",
+    "static/media/Miranda_Pablo.pdf": "/static/media/Miranda_Pablo.4ccaa7ae.pdf",
+    "static/media/mdb.css": "/static/media/arrow_right.8ef6a08c.svg",
     "static/media/color.png": "/static/media/color.eb0632af.png",
+    "static/media/all.min.css": "/static/media/fa-solid-900.8e39d5d5.svg",
     "static/media/keepItTight.png": "/static/media/keepItTight.7ec5cbbd.png",
     "static/media/landscapings.gif": "/static/media/landscapings.b5073083.gif",
     "static/media/ns.png": "/static/media/ns.f2f50078.png"
   },
   "entrypoints": [
     "static/js/runtime-main.23507236.js",
-    "static/js/2.64b4d0ef.chunk.js",
-    "static/css/main.a35a2284.chunk.css",
-    "static/js/main.fd7f8f2e.chunk.js"
+    "static/css/2.8884c411.chunk.css",
+    "static/js/2.5c45cc7a.chunk.js",
+    "static/css/main.e060399b.chunk.css",
+    "static/js/main.c52779cd.chunk.js"
   ]
 }
