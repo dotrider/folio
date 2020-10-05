@@ -7,16 +7,7 @@ const Nav = () => {
 
     return(
             <footer id='footer'>
-              {/* <Link    
-                activeClass="active"
-                to="heading"
-                spy={true}
-                smooth={true}
-                // offset={-70}
-                duration= {800} className="item"> <div id='upIcon'>^</div>
-              </Link> */}
-
-              <p> &copy; <span id='year'>{year}</span> </p>
+                <p> &copy; <span id='year'>{year}</span> </p>
              </footer> 
     )
 }

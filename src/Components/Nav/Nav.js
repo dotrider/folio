@@ -31,7 +31,7 @@ const Nav = () => {
                         <nav id='nav'>
                             {
                                 navMenu.map(({id, name, page}) => 
-                                    <Link id={id}  
+                                    <Link key={id}  
                                         activeClass="active"
                                         to={page}
                                         spy={true}

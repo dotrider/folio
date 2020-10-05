@@ -1,8 +1,5 @@
 #skills{
-    width: 100vw;
-    /* height: 90vh; */
-    margin-top: 5em;
-    
+    margin-top: 5em;   
 }
 
 #skillSection {
@@ -57,12 +54,6 @@ a:link, a:visited{
        width: 700px;
        height: 200px;
     }
-    /* #skills{
-        width: 100vw;
-        height: 100vh;
-        
-    }
-     */
     
 }
 
@@ -73,7 +64,7 @@ a:link, a:visited{
     }
     
     .sec {
-       width: 800px;
+       width: 1000px;
        height: 200px;
     }
 

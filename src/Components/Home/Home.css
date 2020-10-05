@@ -1,7 +1,9 @@
 
 #home {
     background-color: #161616;
-    height: 80vh;
+    height: 75vh;
+    margin: 0 auto;
+    max-width: 1000px;
 }
 
 .home-text-cont {

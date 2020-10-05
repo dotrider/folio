@@ -1,16 +1,12 @@
 #about {
-    /* height: 80vh; */
     background-color: #161616;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
-.about-me {
-    line-height: 1.2;
-    font-family: 'Source Sans Pro', sans-serif;
-}
 
 .aboutContainer {
     padding: 25px;
-    font-size: 1rem;
 }
 
 .connect {
@@ -21,16 +17,15 @@
 #resume-container {
     padding-bottom: 20px;
     cursor: pointer;
+    display: block;
 }
 
 #resume {
-    /* width: 50px; */
     border: 1px solid white;
     border-radius: 5px;
     background-color: #83CD29;
     padding: 5px 15px;
-    color: white;
-    
+    color: white;    
 }
 
 #resume:active {
@@ -39,22 +34,17 @@
 }
 
 
-@media (min-width: 700px) {
-    
-    .aboutContainer {
+
+/* @media (min-width: 700px) {
+   .aboutContainer {
         padding: 50px;
         font-size: .85rem;
     }
-    
-
 }
 
 @media (min-width: 1024px) {
-    /* #about {
-        height: 80vh;
-    } */
     .aboutContainer {
         padding: 50px;
         font-size: 1.2rem;
     }
-}
+} */
