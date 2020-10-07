@@ -31,7 +31,12 @@ const Projects = () => {
     return(
         <section id='projects'>
 
-                 <Typography variant='h6' className='headings'>{sectionName.slice(0,3)} <span className='bold fcgrey'>{sectionName.slice(3)}</span></Typography>
+                 <MDBAnimation reveal type='fadeInUp'>
+                 	<Typography variant='h6' className='headings'>{sectionName.slice(0,3)}
+                 	    <span className='bold fcgrey'>{sectionName.slice(3)}</span>
+                 	</Typography>
+                 </MDBAnimation>
+
                   <Grid container justify='center' className={classes.gridCont} spacing={3}>
                             {data.map(({name, image, technologies, liveSite, description, id}, i) => 
                                     <Grid item xs={12} sm={6} className={classes.singleGrid} key={id}>

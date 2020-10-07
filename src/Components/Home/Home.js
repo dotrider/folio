@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-// import {useSpring, animated} from 'react-spring'
-import { MDBAnimation, MDBTypography } from "mdbreact";
+import { MDBAnimation } from "mdbreact";
 import './Home.css';
 import { Typography, createMuiTheme, responsiveFontSizes, MuiThemeProvider } from '@material-ui/core'
 
@@ -13,7 +12,7 @@ theme = responsiveFontSizes(theme)
 
 
 const Landing = () => {
-    const [ user, setUser ] = useState({
+    const [ user ] = useState({
         firstName: 'Pablo',
         lastName: 'Miranda',
         occupation: ['Full Stack', 'Web Developer']

@@ -5,6 +5,7 @@ import Skills from './Components/Skills/Skills';
 import About from './Components/About/About';
 import Footer from './Components/Footer/Footer';
 import Nav from './Components/Nav/Nav';
+import ScrollUp from './Components/ScrollUp/ScrollUp';
 import './reset.css';
 import './App.css';
 
@@ -17,6 +18,7 @@ function App() {
       <Skills/>
       <About/>
       <Footer/>
+      <ScrollUp/>
     </div>
   );
 }

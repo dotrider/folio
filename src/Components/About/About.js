@@ -18,7 +18,9 @@ const About = () => {
 
     return(
         <section id='about'>
-                 <Typography variant='h6' className='headings'>{sectionName}</Typography>
+                 <MDBAnimation reveal type='fadeInUp'>
+                     <Typography variant='h6' className='headings'>{sectionName}</Typography>
+                 </MDBAnimation>
                     <MDBAnimation reveal type='fadeInUp'>
                         <div className='aboutContainer'>
                             <div>

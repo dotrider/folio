@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, CardMedia, Typography, CardContent, makeStyles } from '@material-ui/core'
+import { Grid, Typography } from '@material-ui/core'
 import { MDBAnimation } from "mdbreact";
 import './Skills.css';
 
@@ -10,7 +10,12 @@ const Skills = () => {
     return(
         <section id='skills'>
             
-        <Typography variant='h6' className='headings'>{sectionName[0]} <span className='bold fcgrey'>{sectionName[1]}</span></Typography>
+        <MDBAnimation reveal type='fadeInUp'>
+            <Typography variant='h6' className='headings'>{sectionName[0]} 
+                <span className='bold fcgrey'>{sectionName[1]}</span>
+            </Typography>
+        </MDBAnimation>
+        {/*need to make this dynamic */}
             <MDBAnimation reveal type='fadeInUp' id ='skillSection'>
                         <Grid className='skillSet'>
                             <Grid className='sec'>
