@@ -8,8 +8,8 @@ const ScrollUp = () => {
     const [ isVisible, setIsVisible ] = useState(false)
 
     const toggleView = () => {
-        //show scrollTop btn if it's above 300
-        window.pageYOffset > 300 ?
+        //show scrollTop btn if it's above 450
+        window.pageYOffset > 450 ?
             setIsVisible(true) : setIsVisible(false)
     }
 
