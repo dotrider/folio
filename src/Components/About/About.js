@@ -10,7 +10,7 @@ const About = () => {
     const sectionName = 'About Me', resumeSec = 'Resume'
     const aboutMe = [
         "Hello there, My name is Pablo, I'm a full stack web developer in the Phoenix area. It’s amazing all the awesome things you can build with code and a little bit of imagination!",
-        "I'm comfortable learning on the fly and always thrive on change and new challenges. My current stack consist of React, Node, Express and PostgreSql and many other technologies.",
+        "I love finding efficient ways to build dynamic web applications. I'm comfortable learning on the fly and always thrive on change and new challenges. ",
         "Besides coding, I like enjoy outdoor activities such as hiking, camping and explore Arizona's beautiful backcountry. I'm passionate about what I do and would like to collaborate in your projects. Let's connect!"
 
     ]
